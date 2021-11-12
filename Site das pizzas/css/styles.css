@@ -1,0 +1,24 @@
+body{
+    background-color: rgb(187, 240, 240);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+div{
+    background-color: rgb(187, 209, 88);
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+h2{
+    color: blueviolet;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+table{
+    border-style: double;
+    text-align: right;
+}
+
+
