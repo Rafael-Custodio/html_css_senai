@@ -1,0 +1,16 @@
+body{
+    background-image: url("../imagens/robos.png");/*colocando imagem */
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+main{
+    background-color: rgba(0,0,0,0.6);/*deixando transparente*/
+    padding: 5px 40px;/*tamanho da borda*/
+    margin-top: 20px;/*distanciamento da borda da página*/
+    border-radius: 10px; /*arredondamento da borda*/
+    }
+
+.logo{
+    text-align: center;
+}

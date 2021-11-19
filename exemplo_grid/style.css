@@ -1,0 +1,31 @@
+body{
+font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    text-align: center;
+}
+h2{
+    margin-top: 0px;/*Distância da margem para o topo*/
+    }
+.grid{
+display: grid; /*para montar o grid*/
+grid-template-columns: 1fr 1fr; /*Unidade fracionária, para dividir a página ao meio (fraciona em 2 = 1 fração e 1 fração)*/
+gap: 20px;/*espaçamento entre as colunas e linhas*/
+}
+
+.item{
+    background-color: blueviolet;
+    border: 1px solid black;
+    padding: 20px; /*(distância da margem para o fundo)*/
+    border-radius: 4px;
+    display: grid; /*comportamento em bloco (deixa de ser em linha)*/
+
+}
+
+.comprar{
+    background-color: blanchedalmond;
+    color: black;
+    text-decoration: none; /*retira o sublinhado do link*/
+    border-radius: 4px;
+    padding: 10px 20px;
+}

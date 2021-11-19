@@ -1,0 +1,78 @@
+/*estios gerais*/
+
+body{
+    font-family: 'Courier New', Courier, monospace;
+    margin: 40px;
+}
+
+h1, p{
+    text-align: center;
+}
+
+h1{
+    font-size: 48px;
+    line-height: 1; /*espaçamento entre linhas*/
+}
+
+p, span{
+    font-size: 20px;
+}
+
+.comprar{
+    background: #a8f;
+    color: #103; /*cor do texto*/
+    padding: 10px 20px;
+    text-decoration: none;/*tira o sublinhado do link*/
+    border-radius: 4px;
+    font-size: 20px;
+}
+
+.preco{
+    background: #ddd;
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+
+img{
+    max-width: 100%;/*esticando a página, o tamanho máximo que ela pode ter, será de 100%*/
+    border-radius: 4px;
+}
+
+
+/*posicionamento*/
+
+.grid{
+    display: grid;/*comando que faz a classe se tornar grid*/
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    }
+
+.foto{
+    grid-column: 1/-1;/*fazendo a imagem ocupar desde a coluna 1 até a coluna 3*/
+}
+
+.descricao{
+    grid-column: 1/-1;/*fazendo a imagem ocupar desde a coluna 1 até a coluna 3*/
+}
+
+.comprar{
+    grid-row: 4;/*posição na linha 4*/
+    grid-column: 2;/*posição na coluna 2*/
+    text-align: center;
+}
+
+.preco{
+    grid-row: 4;/*posição na linha 4*/
+    grid-column: 1;/*posição na coluna 2*/
+    text-align: center;
+}
+
+.titulo{
+    grid-column: 1/-1;
+}
+
+a:hover{/*passa o mouse em cima de botão ele muda de cor*/
+    color: blue;
+}
+
+

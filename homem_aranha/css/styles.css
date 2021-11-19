@@ -1,0 +1,83 @@
+body{
+    background-color: rgb(41, 40, 40);
+}
+
+main{/*Conteúdo principal da página*/
+    background-color: rgba(243, 39, 39, 0.6);
+    border-radius: 10px;/*arredonda a borda do main*/
+    padding: 5px 40px; /*faz a foto ficar longe da borda*/
+}
+
+.um{
+    text-align: left;/*alinhamento à esquerda*/
+    margin-top: 20px;/*distancia da borda superior da página*/
+    display:inline-flex;
+}
+
+.dois{
+    text-align: right;
+    margin-bottom: 40px;/*distância do fundo da página*/
+}
+
+.tres{
+    background-color: rgba(243, 39, 39, 0.6);
+    border-radius: 10px;/*arredonda a borda do main*/
+    padding: 5px 40px; /*faz a foto ficar longe da borda*/
+    text-align: center;/*centralizado*/
+}
+
+.quatro{
+    margin-top: 20px;/*distancia da borda da página*/
+    }
+
+.cinco{
+    text-align: center;
+}
+
+.dez{
+    text-align: center;
+}
+
+.onze{
+    text-align: center;
+}
+
+.doze{
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    color: seashell;
+}
+
+.seis{
+    font-size: 40px;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: seashell;
+}
+
+.caixa1{
+    text-align: center;
+    margin-top: 20px;/*distancia da borda da página*/
+}
+
+ul li{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: seashell;
+    text-align:left;
+}
+.sete{background-color: rgba(243, 39, 39, 0.6);
+
+}
+.oito{
+    color: seashell;
+}
+
