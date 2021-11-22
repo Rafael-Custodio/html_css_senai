@@ -1,7 +1,10 @@
 body{
-    background-image: url("../imagens/robos.png");/*colocando imagem */
+    background-image: url("../imagens/robos.png");/*colocando imagem como background*/
     background-repeat: no-repeat;
     background-size: 100%;
+    background-attachment: fixed;/*Fixa o background para rolar a página e manter a foto*/
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
 }
 
 main{
@@ -11,6 +14,25 @@ main{
     border-radius: 10px; /*arredondamento da borda*/
     }
 
-.logo{
+.manchete, .headline, .logo, .video, article, .homem{
     text-align: center;
+}
+
+article{
+    font-style: normal;
+    font-size: 20px;
+    color: aliceblue;
+}
+
+.robo{
+    margin: 30px 0px;
+    text-align: center;
+    width: 100%;
+}
+
+.robo table{
+    background: rgba(130, 65, 130, 0.6);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 0 auto;
 }
