@@ -1,0 +1,55 @@
+body{
+    background-image: url(../simulacao_de_processo_seletivo/imagens/background.jpg);/*background de fundo*/
+    background-repeat: no-repeat;/*não repetir a imagem*/
+    background-size: 100%;/*fazendo a imagem ocupar a tela toda*/
+    background-attachment: fixed;/*fixa a imagem para ela não sumir ao rolar a página*/
+    font-family: Verdana, Geneva, Tahoma, sans-serif;/*padronizando a fonte verdana para todo o body*/
+    color: black;/*cor da fonte preta para todo body*/
+    
+}
+main{
+    background-color: rgba(0,0,0,0.6);/*deixando transparente*/
+    padding: 5px 40px;/*distanciamento da lateral esquerda e borda superior*/
+    border-radius: 10px; /*arredondamento da borda*/
+}
+
+.grid{
+    display: grid;/*cria a grid*/
+    grid-template-columns: 1fr 1fr;/*fraciona as colunas*/
+    gap: 20px;/*espaçamento entre as colunas*/
+}
+
+.conteudo{
+    padding: 20px; /*(distância da margem para o fundo)*/
+    text-align: center;
+    color: white;
+
+}
+
+.foto1{
+    border-radius: 10px;
+}
+
+.objetivo table{
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 0 auto;
+    color: white;
+}
+
+.empregos, .qualificacao, .conteudos{
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 0 auto;
+    color: white;
+
+}
+h1, h2, h3, footer, .empregos, .objetivo{
+    text-align: center;
+}
+
+h2{
+    color: red;
+}
