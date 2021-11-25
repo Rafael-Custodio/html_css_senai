@@ -1,0 +1,36 @@
+body{
+    background-image: url("../imagens/foto.jfif");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    color: white;
+}
+
+
+#menu ul{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    background-color: #EDEDED;
+    text-align: center;
+    border-radius: 10px;
+}
+
+#menu ul li{
+    display: inline;
+}
+
+#menu ul li a{
+    padding: 15px 25px;/*distância de cima e de baixo, e depois das laterais*/
+    display: inline-block;/*deixa de ocupar um o espaço do outro*/
+    background-color: #EDEDED;/*cor de fundo do botão*/
+    color: black;
+    text-decoration: none;/*retira o sublinhado do link*/
+    border-bottom: 3px solid #EDEDED;
+}
+
+#menu ul li a:hover{
+    background-color: #d6d6d6b6;/*muda a cor de fundo ao passar o mouse sobre o botão*/
+    color: rgba(255, 0, 0, 0.89);/*muda a cor do texto ao passar o mouse em cima do botão*/
+    border-bottom: 3px solid rgb(60, 255, 0);/*cria uma borda sólida e colorida embaixo do botão ao passar o mouse em cima*/
+}

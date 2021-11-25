@@ -9,7 +9,7 @@ body{
 }
 main{
     background-color: rgba(0,0,0,0.6);/*deixando transparente*/
-    padding: 5px 40px;/*distanciamento da lateral esquerda e borda superior*/
+    padding: 5px 40px;/*distanciamento das laterais (5px) e das bordas (40px)*/
     border-radius: 10px; /*arredondamento da borda*/
 }
 
@@ -28,6 +28,7 @@ main{
 
 .foto1{
     border-radius: 10px;
+    max-width: 60%;/*Redimensiona a imagem e não distorce ao diminuir a página*/
 }
 
 .objetivo table{
@@ -46,10 +47,25 @@ main{
     color: white;
 
 }
-h1, h2, h3, footer, .empregos, .objetivo{
+h1, h2, h3, footer, .empregos, .objetivo, .clipes{
     text-align: center;
 }
 
 h2{
     color: red;
+    font-size: 25px; /*tamanho da fonte*/
 }
+
+footer{
+    background: rgb(167, 247, 160);/*background transparência*/
+    border-radius: 10px;/*arredondamento das bordas*/
+    padding: 5px 40px;/*distanciamento das laterais (5px) e das bordas (40px)*/
+    font-size: 15px;/*tamanho da fonte*/
+    color: slategrey;/*cor da fonte*/
+    font-weight: bold;/*negrito*/
+    font-style: italic;/*itálico*/
+    text-decoration: underline red;/*sublinhado vermelho*/
+
+}
+
+

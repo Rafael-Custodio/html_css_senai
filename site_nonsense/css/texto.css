@@ -1,0 +1,30 @@
+h1{
+    text-align: center;
+    text-decoration: overline;/*linha superior, sobre o texto*/
+    text-transform: uppercase;/*caixa alta*/
+    text-indent: 50px;/*indentação inicial do texto*/
+    letter-spacing: 10px;/*distância entre as letras*/
+    line-height: 0.8;/*distância entre as linhas*/
+}
+
+h2{
+    text-align: left;
+    text-decoration: line-through;/*texto com riscado no meio*/
+    text-transform: lowercase;/*tudo em minúsculo*/
+    letter-spacing: -3px;/*distância entre as letras NEGATIVO*/
+}
+
+h3{
+    text-align: right;
+    text-decoration: underline;/*sublinhado no texto*/
+    text-transform: capitalize;/*toda primeira palavra do texto, com letra maíscula*/
+    word-spacing: 10px;/*espaçamento entre palavras*/
+}
+
+h4{
+    text-align: justify;
+    text-decoration: none;/*sem formatação, volta ao padrão original*/
+    text-transform: none;/*sem formatação, volta ao padrão original*/
+    text-shadow: 3px 2px red;
+}
+
