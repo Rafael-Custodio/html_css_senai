@@ -9,7 +9,92 @@
 
 <body>
     <main>
-        <h1>Formulário</h1>
+        <h1>Cadastro de clientes</h1>
+        <form>
+            <label>Endereço</label>
+            <!--Etiqueta ao lado da caixa-->
+            <input type="text" name="endereco" value="Digite o endereço" size="40" maxlength="150">
+            <!--Atributo <value> mostra dentro da caixa o que está escrito-->
+            <!--Atributo <size> é o tamanho do campo-->
+            <!--Atributo <maxlength> é o limite de caracteres que cabem dentro do campo <size>-->
+
+            <br><br>
+            <label>Data</label>
+            <input type="date" name="data_atual">
+            <br><br>
+
+            <label>Senha</label>
+            <input type="password" name="senha">
+            <br><br>
+
+            <label>Data e horário</label>
+            <input type="datetime-local" name="datahora">
+            <br><br>
+
+            <!--radio faz a bolinha de seleção-->
+            <input type="radio" id="alternativa1" name="alternativa" value="A"><label for="alternativa1">Casa</label>
+            <input type="radio" id="alternativa2" name="alternativa" value="B"><label for="alternativa2">Prédio</label>
+            <input type="radio" id="alternativa3" name="alternativa" value="C"><label
+                for="alternativa3">Comércio</label>
+            <input type="radio" id="alternativa4" name="alternativa" value="D"><label for="alternativa4">Nenhuma das
+                Opções</label>
+            <br><br>
+
+            <!--checkbox faz a caixinha de multipla seleção-->
+            <input type="checkbox" id="alternativa1" name="alternativa" value="A"><label for="alternativa1">Casa</label>
+            <input type="checkbox" id="alternativa2" name="alternativa" value="B"><label
+                for="alternativa2">Prédio</label>
+            <input type="checkbox" id="alternativa3" name="alternativa" value="C"><label
+                for="alternativa3">Comércio</label>
+            <input type="checkbox" id="alternativa4" name="alternativa" value="D"><label for="alternativa4">Nenhuma das
+                Opções</label>
+            <br><br>
+
+            <label>Telefone</label>
+            <input type="tel" name="telefone" size="20">
+            <br><br>
+
+            <label>E-mail</label>
+            <input type="email" name="email" size="50" maxlength="80">
+            <br><br>
+
+            <label>Pesquisar</label>
+            <input type="search" name="busca" size="50" maxlength="80">
+            <br><br>
+
+            <label>Site</label>
+            <input type="url" name="site" size="50" maxlength="80">
+            <br><br>
+
+            <label>Tipo de Endereço</label>
+            <select name="tp_endereco" id="tp_endereco">
+                <option value="CS">Casa</option>
+                <option value="PR">Prédio</option>
+                <option value="CO">Comércio</option>
+            </select>
+            <br><br>
+
+            <!--cols é a largura e rows é a altura-->
+            <textarea name="texto" id="texto" cols="60" rows="10"></textarea>
+            <br><br>
+
+            <input type="button" name="chamar" value="Chamar" onclick="alert('O PALMEIRAS NÃO TEM MUNDIAL!')">
+            <br><br>
+
+
+            <!--montar botão padrão--> 
+            <input type="submit" name="enviar" value="Salvar">
+
+
+
+
+
+
+
+
+
+
+        </form>
     </main>
 </body>
 
