@@ -4,6 +4,10 @@
 <head>
     <meta charset="utf-8">
     <title>Site de charadinhas e trocadilhos de Rafael Custodio</title>
+    <link rel="stylesheet" href="../site_charadinhas/css/style.css">
+    <script src="../site_charadinhas/script/script.js">
+    </script>
+
 </head>
 
 <body>
@@ -19,25 +23,27 @@
     <br><br>
     <!--Pula duas linhas-->
 
-    <img src="imagens/dragao.png">
-    <!--Colocando imagem na página e dimensionando o tamanho-->
+    <img id="imagem" src="imagens/dragao.png" alt="Foto">
+    <!--Colocando imagem na página-->
+    <br>
+    <p>Achou feio o estilo do site ?</p>
+    <!-- Botão para trocar a imagem-->
+    <input type="button" value="Troque o estilo do site, clicando aqui." onclick="mudarEstilo()">
+
+
     <hr>
     <!--Faz um risco na página (por exemplo: para dividir e separar conteúdos, como se fosse separar o cabeçalho do texto)-->
 
-    <h2>
+    <h2 id="subtitulo">
         <font color="green">
             <p><strong>Charadas e trocadilhos com respostas</strong></p>
     </h2>
     </font>
-    <p>A melhor coleção de charadas e trocadilhos com respostas está aqui.
-        <br>
-        Você gosta de charadas e trocadilhos?
-        <br>
-        Quer algo rápido e divertido? Veja charadas e trocadilhos curtos.
-        <br>
-        Confira também as advinhas inteligentes, legais, idiotas, etc.
-        <br>
-        Espero que você se divirta, e muito obrigado pela visita.
+    <p class="text">A melhor coleção de charadas e trocadilhos com respostas está aqui.
+        <br> Você gosta de charadas e trocadilhos?
+        <br> Quer algo rápido e divertido? Veja charadas e trocadilhos curtos.
+        <br> Confira também as advinhas inteligentes, legais, idiotas, etc.
+        <br> Espero que você se divirta, e muito obrigado pela visita.
     </p>
     <br>
     <hr>
